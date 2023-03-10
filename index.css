@@ -1,0 +1,42 @@
+#asidee{
+    border-right: 0.1px groove black;
+}
+.details{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: 20vw
+}
+li{
+    list-style-type: none;
+    padding: 0.5rem 
+}
+table tbody tr, table thead tr {
+    padding-top: 10px 0rem;
+    border-bottom: 1px solid gray ;
+}
+
+@media screen and (max-width:720px){
+    .data-container-div{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        width: 80vw
+    }
+    .details{
+        width: 60vw
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        display: none;
+        visibility: hidden;
+    }
+    main{
+        width: 100vw;
+        margin: auto;
+        padding: 2rem;
+    }
+}
